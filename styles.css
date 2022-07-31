@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #fffef2;
+}
+header,
+h2,
+p {
+	text-align: center;
+}
+figure {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+figure img {
+	width: 500px;
+	max-width: 100%;
+}
+figcaption {
+	font-size: 0.8rem;
+	font-style: italic;
+	font-weight: 100;
+	margin: 10px 0;
+}
+
+.list {
+	width: 500px;
+	margin: 0 auto;
+	list-style-type: square;
+}
+li {
+	margin: 10px;
+}
+.bold {
+	font-weight: 800;
+}
+a {
+	color: black;
+}
